@@ -50,3 +50,5 @@ SecretTUI uses the `keyring` library to interface with the operating system's se
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/yz778/secret-tui?utm_source=oss&utm_medium=github&utm_campaign=yz778%2Fsecret-tui&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)

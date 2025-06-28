@@ -131,7 +131,7 @@ class SecretTUI(App):
         if table.cursor_row < len(self.filtered_items_indices):
             original_index = self.filtered_items_indices[table.cursor_row]
             original_item = self.all_items[original_index]["original_item"]
-            details = self.secret_manager.get_item_details_by_index(original_item)
+            details = self.secret_manager.get_item_details(original_item)
             if details:
                 if not any(
                     isinstance(screen, SecretViewScreen)

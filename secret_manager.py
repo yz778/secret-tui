@@ -14,7 +14,7 @@ class SecretManager:
         self.items = list(collection.get_all_items())
         return self.items
 
-    def get_item_details_by_index(self, item):
+    def get_item_details(self, item):
         secret_bytes = item.get_secret()
         secret_display = "<empty>"
         if secret_bytes:
